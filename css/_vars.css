@@ -1,0 +1,18 @@
+:root {
+	--white: #fff;
+  --blue: #118da8;
+
+  --accent-color: #fff151;
+  --active-color: #ff8800;
+
+  --font-family: "DM Sans", sans-serif;
+
+  --gap: 20px;
+  --container-width: 1300px;
+  --container-offset: 15px;
+
+  --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+
+  --outline: 2px dashed currentColor;
+  --outline-offset: 3px;
+}

@@ -1,0 +1,51 @@
+.header {
+  padding: 26px 0;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  padding: 20px;
+
+}
+
+
+.header__link {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: var(--white);
+  transition: var(--main-trs);
+}
+
+.header__link:focus-visible {
+  outline: var(--outline);
+  outline-offset: var(--outline-offset);
+}
+
+.header__link:hover {
+  color: var(--accent-color);
+}
+
+.header__link:active {
+  color: var(--active-color);
+}
+
+.active__now {
+  color: var(--blue);
+}

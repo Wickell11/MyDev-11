@@ -1,0 +1,46 @@
+.author {
+  padding: 100px 0;
+}
+
+.author__content {
+  display: flex;
+  gap: 60px;
+}
+
+.author__image {
+  border-radius: 12px;
+}
+
+.author__left {
+  margin: auto;
+}
+
+.author__arrow {
+  margin-bottom: 20px;
+}
+
+.author__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue);
+}
+
+.author__title {
+  font-weight: 400;
+  line-height: 122%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.author__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.author__descr:not(:last-child) {
+  margin-bottom: 33px;
+}

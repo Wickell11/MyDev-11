@@ -1,0 +1,34 @@
+.title {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 400;
+}
+
+.title--small{
+  font-size: 15px;
+}
+
+
+.title--large{
+  font-size: 64px;
+}
+
+.title--large-xl{
+  font-size: 70px;
+}
+
+.title--centered{
+  text-align: center;
+}
+
+.title--mb-small-xs {
+  margin-bottom: 12px;
+}
+
+.title--mb-small {
+  margin-bottom: 28px;
+}
+
+.title--mb-large {
+  margin-bottom: 50px;
+}
